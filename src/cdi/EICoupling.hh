@@ -32,7 +32,7 @@ namespace rtt_cdi {
  */
 //========================================================================
 
-class DLL_PUBLIC_cdi EICoupling {
+class EICoupling {
   // DATA
 
   // There is no data for a pure virtual object.  This class provides an
