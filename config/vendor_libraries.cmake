@@ -859,13 +859,14 @@ Looking for Draco...\")
   # CMake macros like 'add_component_library' and 'add_component_executable'
   include( component_macros )
 
-  # CMake macros to query the availability of TPLs.
-  include( vendor_libraries )
-
-  # Provide targets for MPI, Metis, etc.
-  setupVendorLibraries()
 
 endmacro()
+
+# CMake macros to query the availability of TPLs.
+# Provide targets for MPI, Metis, etc.
+include( vendor_libraries )
+setupVendorLibraries()
+
 ")
 
   message( " " )
